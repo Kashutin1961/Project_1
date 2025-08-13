@@ -1,4 +1,14 @@
+# Ignore everything in the plots folder...
+plots/*
+
+# ...except PNG and HTML files
+!plots/*.png
+!plots/*.html
+
 data/dst-3.0_16_1_hh_database.csv
 data/ExchangeRates.csvdataset.csv
 data/dataset.csv
 data/dataset.csv
+.DS_Store
+__pycache__/
+*.ipynb_checkpoints

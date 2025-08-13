@@ -1,0 +1,77 @@
+name: Conda_VS_SkillsFactory_mac
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core Python setup
+  - python=3.13.5
+  - pip=25.1
+  - setuptools=72.1.0
+  - wheel=0.45.1
+
+  # Data analysis
+  - numpy=2.3.1
+  - pandas=2.2.3
+  - scipy=1.16.0
+  - matplotlib=3.10.0
+  - seaborn=0.13.2
+  - statsmodels=0.14.5
+  - bottleneck=1.4.2
+  - numexpr=2.11.0
+
+  # Plotting and export
+  - plotly=6.0.1
+  - python-kaleido=1.0.0
+  - matplotlib-inline=0.1.6
+
+  # Jupyter and IPython
+  - ipykernel=6.29.5
+  - ipython=9.1.0
+  - jupyter_client=8.6.3
+  - jupyter_core=5.8.1
+  - nbformat=5.10.4
+
+  # Web automation
+  - selenium=4.24.0
+  - selenium-manager=4.34.0
+
+  # Geospatial stack
+  - geopandas
+  - pyogrio=0.11.0
+  - pyproj=3.7.1
+  - shapely=2.1.1
+
+  # PostgreSQL support
+  - psycopg2=2.9.10
+
+  # Utilities and support
+  - python-dateutil
+  - pytz
+  - requests
+  - xmltodict
+  - simplejson
+  - colorama
+  - tqdm
+  - tabulate
+  - decorator
+  - dill
+  - traitlets
+  - typing-extensions
+
+  # Linting and formatting
+  - pylint
+  - isort
+  - ruff
+
+  # Pip-installed packages
+  - pip:
+      - beautifulsoup4==4.13.4
+      - python-dotenv==1.1.1
+      - tvdatafeed==2.1.0
+      - narwhals==1.43.0
+      - orjson==3.11.1
+      - soupsieve==2.7
+      - webdriver-manager==4.0.2
+
+# Note: Prefix is local to your machine and should be removed for sharing
